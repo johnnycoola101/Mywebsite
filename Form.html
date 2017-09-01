@@ -1,0 +1,141 @@
+    <html lang="en-gb">
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <title>Jonathan Harris</title>
+        </head>
+         
+         <div class="headerbg">
+          <header>
+            <nav class="nav">
+                <p>
+               <a href="file:///C:/Users/jonathan/Documents/Unit%2020/NewWebpage.html">Home Page</a>
+                 
+                 <a href="https://drive.google.com/file/d/0B8rzHoeWSlvPS0ZWY1J5dlhiNzQ/view?usp=sharing/">New image of me</a>
+                 <!--New image of me from my unit 30-->
+
+                </p>
+            </nav>
+          </header>  
+         </div>
+            <section id="contact">
+              <h1 class="All contacts for me">Contact & Social Media</h1>
+                <p><b>My Email:</b> Johnnycoola5@googlemail.com</p>
+                <p>
+                <a href='https://www.instagram.com/gift_from_da_south/'><i class="fa fa-camera-retro"><b class="Instagram Page">Instagram Page</b></i></a>
+                </p>
+                <p>
+                <a href='https://www.linkedin.com/in/jonathan-harris-8a7403145/'><b class="Linkedin Page">LinkedIn Page</b></a>
+                </p>
+                <p>
+                <a href='https://www.facebook.com/johnny.JGR.harris'><b class="Facebook Page">Facebook Page</b></a>
+                </p>
+
+                <img src="https://login.salesforce.com/img/logo198.png" alt="Image of a Salesforce" class="picture" />
+
+              <form method="input" > 
+               <h4>Contact Me Directly</h4>
+                <p class="Formcolour">First Name: <br>
+                <input type="text" id="firstname"><br>
+                Surname: <br> 
+                <input type="text" id="Surname"><br>
+                Email: <br>
+                <input type="text" id="email" onlostfocus="validate()"><br>
+                Message: <br>
+                <input type="text" id="message"><br></p>
+                <br>
+                <button onclick="Sendinfo()"name="send">Send<br>
+                </button>
+            </section>
+<body>
+
+<!--This JavaScript Can Validate Input-->
+<p>Please rate this website a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        text = "Sorry try again";
+    } else {
+        text = "Great! Thank you";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>            
+          <footer><p> Created by: Jonathan Harris
+          <script src="Form.js"> 
+          </script>
+        </body>
+
+        <head>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+
+<p>Hover over the image .</p>
+
+<div class="container">
+  
+  <img src="http://3.bp.blogspot.com/-HSPp0ZCZDVU/U-krsBKK2oI/AAAAAAAABv0/DMYOT49tSvo/s1600/facebook+like+logo.png" alt="Image of a thumb" class="picture" alt="Thanks" class="image"> 
+  <div class="overlay">
+    <div class="text">Thank you!</div>
+  </div>
+</div>
+
+</body>
+    </html>
+
